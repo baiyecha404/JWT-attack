@@ -31,7 +31,6 @@ router.get('/', (_req, res) => {
 
 router.post('/checkin', (req, res) => {
     let { username } = req.body;
-    console.log(username);
     if (typeof (username) === 'string') {
         const creds = 'false';  // you are guest
         if (1 + 1 === 3) {
